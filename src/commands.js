@@ -145,92 +145,92 @@ const cs3410 = {
 }
 
 const classCommands = {
-  cs4414_site: {
+  cs4414: {
     name: "CS 4414 Site",
     url: cs4414.site,
     category: "Class",
   },
-  cs4414_forum: {
+  cs4414_ed: {
     name: "CS 4414 Forum",
     url: cs4414.forum,
     category: "Class",
   },
-  cs4414_submissions: {
+  cs4414_s: {
     name: "CS 4414 Submissions",
     url: cs4414.submissions,
     category: "Class",
   },
-  cs4450_site: {
+  cs4450: {
     name: "CS 4450 Site",
     url: cs4450.site,
     category: "Class",
   },
-  cs4450_forum: {
+  cs4450_ed: {
     name: "CS 4450 Forum",
     url: cs4450.forum,
     category: "Class",
   },
-  cs4450_submissions: {
+  cs4450_s: {
     name: "CS 4450 Submissions",
     url: cs4450.submissions,
     category: "Class",
   },
-  math3110_site: {
+  math3110: {
     name: "MATH 3110 Site",
     url: math3110.site,
     category: "Class",
   },
-  math3110_forum: {
+  math3110_ed: {
     name: "MATH 3110 Forum",
     url: math3110.forum,
     category: "Class",
   },
-  math3110_submissions: {
+  math3110_s: {
     name: "MATH 3110 Submissions",
     url: math3110.submissions,
     category: "Class",
   },
-  engrd2700_site: {
+  engrd2700: {
     name: "ENGRD 2700 Site",
     url: engrd2700.site,
     category: "Class",
   },
-  engrd2700_forum: {
+  engrd2700_ed: {
     name: "ENGRD 2700 Forum",
     url: engrd2700.forum,
     category: "Class",
   },
-  engrd2700_submissions: {
+  engrd2700_s: {
     name: "ENGRD 2700 Submissions",
     url: engrd2700.submissions,
     category: "Class",
   },
-  engrc3500_site: {
+  engrc3500: {
     name: "ENGRG 3500 Site",
     url: engrc3500.site,
     category: "Class",
   },
-  engrc3500_forum: {
+  engrc3500_ed: {
     name: "ENGRG 3500 Forum",
     url: engrc3500.forum,
     category: "Class",
   },
-  engrc3500_submissions: {
+  engrc3500_s: {
     name: "ENGRG 3500 Submissions",
     url: engrc3500.submissions,
     category: "Class",
   },
-  cs3410_site: {
+  cs3410: {
     name: "CS 3410 Site",
     url: cs3410.site,
     category: "Class",
   },
-  cs3410_forum: {
+  cs3410_ed: {
     name: "CS 3410 Forum",
     url: cs3410.forum,
     category: "Class",
   },
-  cs3410_submissions: {
+  cs3410_s: {
     name: "CS 3410 Submissions",
     url: cs3410.submissions,
     category: "Class",
