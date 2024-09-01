@@ -5,6 +5,6 @@ It replaces your primary search engine for every new tab that is opened and enab
 
 ___
 Make your own shortcuts by forking this repo:
-`npm install`
-`npm run build; npm run bundle; npm run minify`
-push to your domain, like github pages 
+1. `npm install`
+2. `npm run build; npm run bundle; npm run minify`
+3. push to your domain, like github pages 
