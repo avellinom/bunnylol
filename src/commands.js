@@ -105,6 +105,11 @@ const miscCommands = {
     url: "https://www.overleaf.com/project",
     category: "Misc",
   },
+  dsc: {
+    name: "Discord",
+    url: "https://discord.com/channels/@me",
+    category: "Misc",
+  },
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
@@ -116,13 +121,15 @@ const miscCommands = {
 const cs4414 = {
   site: "https://www.cs.cornell.edu/courses/cs4414/2024fa/",
   forum: "https://edstem.org/us/courses/64297/discussion/",
-  submissions: "https://www.gradescope.com/courses/821661"
+  submissions: "https://www.gradescope.com/courses/821661",
+  notes: "https://docs.google.com/document/d/1IXHvb-WjzEzgy76QxwW6c7YgmFys3353M30aXq7GB8g/edit#heading=h.7r5x8ofkx1hz"
 }
 
 const cs4450 = {
   site: "https://www.racheesingh.com/computernetworks-fa24/",
   forum: "https://edstem.org/us/courses/62063/discussion/",
-  submissions: "https://www.gradescope.com/courses/846995"
+  submissions: "https://www.gradescope.com/courses/846995",
+  notes: "https://docs.google.com/document/d/1U8nKQxp6IoublkjHegt2VMCWxqmFGT8vYhNhb4JgjLc/edit#heading=h.vb2rk2gnufox"
 }
 
 const math3110 = {
@@ -134,13 +141,15 @@ const math3110 = {
 const engrd2700 = {
   site: "https://canvas.cornell.edu/courses/66312",
   forum: "https://edstem.org/us/courses/65401/discussion/",
-  submissions: "https://www.gradescope.com/courses/848908"
+  submissions: "https://www.gradescope.com/courses/848908",
+  notes: "https://www.overleaf.com/project/66d6600800b45161a6fcc063"
 }
 
 const engrc3500 = {
   site: "https://canvas.cornell.edu/courses/66229",
   forum: "https://canvas.cornell.edu/courses/66229",
-  submissions: "https://canvas.cornell.edu/courses/66229"
+  submissions: "https://canvas.cornell.edu/courses/66229",
+  notes: "https://docs.google.com/document/d/1iUO6YzYAwlOquxWWJE1jubWCBIZPOXsERPHaRqcbqLI/edit"
 }
 
 const cs3410 = {
@@ -165,6 +174,11 @@ const classCommands = {
     url: cs4414.submissions,
     category: "Class",
   },
+  cs4414_n: {
+    name: "CS 4414 Notes",
+    url: cs4414.notes,
+    category: "Class",
+  },
   cs4450: {
     name: "CS 4450 Site",
     url: cs4450.site,
@@ -178,6 +192,11 @@ const classCommands = {
   cs4450_s: {
     name: "CS 4450 Submissions",
     url: cs4450.submissions,
+    category: "Class",
+  },
+  cs4450_n: {
+    name: "CS 4450 Notes",
+    url: cs4450.notes,
     category: "Class",
   },
   math3110: {
@@ -210,6 +229,11 @@ const classCommands = {
     url: engrd2700.submissions,
     category: "Class",
   },
+  engrd2700_n: {
+    name: "ENGRD 2700 Notes",
+    url: engrd2700.notes,
+    category: "Class",
+  },
   engrc3500: {
     name: "ENGRG 3500 Site",
     url: engrc3500.site,
@@ -223,6 +247,11 @@ const classCommands = {
   engrc3500_s: {
     name: "ENGRG 3500 Submissions",
     url: engrc3500.submissions,
+    category: "Class",
+  },
+  engrc3500_n: {
+    name: "ENGRG 3500 Notes",
+    url: engrc3500.notes,
     category: "Class",
   },
   cs3410: {
