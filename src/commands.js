@@ -1,5 +1,6 @@
 // @flow strict
 
+// We don't use these. They're from the fork.
 export type CommandType = {|
   name: string,
   url: string,
@@ -108,6 +109,16 @@ const miscCommands = {
   dsc: {
     name: "Discord",
     url: "https://discord.com/channels/@me",
+    category: "Misc",
+  },
+  mc: {
+    name: "Meta Careers",
+    url: "https://www.metacareers.com/profile/new_hire",
+    category: "Misc",
+  },
+  exam: {
+    name: "Notion Exams",
+    url: "https://www.notion.so/avellinom/Fall-2024-Exams-729592b3c20d47688223a44282ec33ac?pvs=12",
     category: "Misc",
   },
   DEFAULT: {
