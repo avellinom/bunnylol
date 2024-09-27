@@ -56,7 +56,7 @@ const miscCommands = {
     url: "https://github.coecis.cornell.edu/settings/organizations",
     category: "Misc",
   },
-  schedule: {
+  tasks: {
     name: "Notion Schedule",
     url: "https://www.notion.so/484d0eea741c49e5a874f7ffb1dbaf87?v=2e068ad6eae54dd98e1b0b859d2e1159",
     category: "Misc",
