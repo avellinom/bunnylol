@@ -121,6 +121,11 @@ const miscCommands = {
     url: "https://www.notion.so/avellinom/Fall-2024-Exams-729592b3c20d47688223a44282ec33ac?pvs=12",
     category: "Misc",
   },
+  sc: {
+    name: "Student Center",
+    url: "https://www.studentcenter.cornell.edu",
+    cateogry: "Misc",
+  },
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
