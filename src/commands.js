@@ -124,7 +124,7 @@ const miscCommands = {
   sc: {
     name: "Student Center",
     url: "https://www.studentcenter.cornell.edu",
-    cateogry: "Misc",
+    category: "Misc",
   },
   DEFAULT: {
     name: "Default - Google Search",
