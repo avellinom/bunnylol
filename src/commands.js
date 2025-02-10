@@ -131,6 +131,11 @@ const miscCommands = {
     url: "https://www.notion.so/avellinom/Trends-173b6f910a2c80aa8babe1934b4e6046",
     category: "Misc",
   },
+  code: {
+    name: "VSCode",
+    url: "vscode://",
+    category: "Misc",
+  },
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
