@@ -136,6 +136,11 @@ const miscCommands = {
     url: "vscode://",
     category: "Misc",
   },
+  food: {
+    name: "Cornell Dining",
+    url: "https://now.dining.cornell.edu/eateries",
+    category: "Misc",
+  },
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
