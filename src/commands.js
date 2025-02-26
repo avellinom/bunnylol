@@ -141,6 +141,11 @@ const miscCommands = {
     url: "https://now.dining.cornell.edu/eateries",
     category: "Misc",
   },
+  c: {
+    name: "ChatGPT",
+    url: "https://chatgpt.com/?q=",
+    category: "Misc",
+  },
   DEFAULT: {
     name: "Default - Google Search",
     url: "https://google.com/",
