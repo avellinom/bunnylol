@@ -143,7 +143,8 @@ const miscCommands = {
   },
   c: {
     name: "ChatGPT",
-    url: "https://chatgpt.com/?q=",
+    url: "https://chatgpt.com/",
+    searchurl: "https://chatgpt.com/?q=",
     category: "Misc",
   },
   DEFAULT: {
