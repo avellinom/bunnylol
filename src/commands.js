@@ -53,7 +53,7 @@ const miscCommands = {
   },
   gh: {
     name: "GitHub",
-    url: "https://github.coecis.cornell.edu/settings/organizations",
+    url: "https://github.com/",
     category: "Misc",
   },
   task: {
@@ -65,17 +65,6 @@ const miscCommands = {
     name: "YouTube",
     url: "https://youtube.com/",
     searchurl: "https://www.youtube.com/results?search_query=",
-    category: "Misc",
-  },
-  redd: {
-    name: "Reddit",
-    url: "https://reddit.com/",
-    searchurl: "https://www.reddit.com/search?q=",
-    category: "Misc",
-  },
-  linked: {
-    name: "Linkedin",
-    url: "https://linkedin.com/",
     category: "Misc",
   },
   ig: {
@@ -90,7 +79,7 @@ const miscCommands = {
     searchurl: "https://www.netflix.com/search?q=",
     category: "Misc",
   },
-  wiki: {
+  w: {
     name: "Wikipedia",
     url: "https://en.wikipedia.org",
     searchurl: "https://en.wikipedia.org/wiki/",
@@ -116,11 +105,6 @@ const miscCommands = {
     url: "https://www.metacareers.com/profile/new_hire",
     category: "Misc",
   },
-  exam: {
-    name: "Notion Exams",
-    url: "https://www.notion.so/avellinom/Spring-2025-Exams-181b6f910a2c80b7b76fc8cac2e04111",
-    category: "Misc",
-  },
   sc: {
     name: "Student Center",
     url: "https://www.studentcenter.cornell.edu",
@@ -134,11 +118,6 @@ const miscCommands = {
   code: {
     name: "VSCode",
     url: "vscode://",
-    category: "Misc",
-  },
-  food: {
-    name: "Cornell Dining",
-    url: "https://now.dining.cornell.edu/eateries",
     category: "Misc",
   },
   c: {
@@ -155,204 +134,8 @@ const miscCommands = {
   },
 }
 
-const cs4410 = {
-  site: "https://www.cs.cornell.edu/courses/cs4410/2025sp/",
-  forum: "https://edstem.org/us/courses/73768/discussion",
-  submissions: "https://cmsx.cs.cornell.edu/web/auth/?action=course&courseid=1663&reset=1",
-  notes: "https://docs.google.com/document/d/1x_rQMLTsBMP9m60Ett94iskgDzdXGHZnMxxJFOr1g-U/edit?tab=t.0#heading=h.bit7pqkn6vun"
-}
-
-const cs4411 = {
-  site: "https://www.cs.cornell.edu/courses/cs4411/2025sp/",
-  forum: "https://edstem.org/us/courses/73680/discussion",
-  submissions: "https://cmsx.cs.cornell.edu/web/auth/?action=course&courseid=1668&reset=1",
-  notes: "https://docs.google.com/document/d/1w5yl8_7jm02Z_PMs4PgHyewrzbwNdpynvlPlHKfE3KQ/edit?tab=t.0#heading=h.7ch0yvg7u0nl"
-}
-
-const cs3780 = {
-  site: "https://www.cs.cornell.edu/courses/cs3780/2025sp/#Schedule",
-  forum: "https://edstem.org/us/courses/69608/discussion",
-  submissions: "https://canvas.cornell.edu/courses/73919/assignments",
-}
-
-const cs3700 = {
-  site: "https://courses.cs.cornell.edu/courses/cs3700/2025sp/",
-  forum: "https://edstem.org/us/courses/73649/discussion",
-  submissions: "https://www.gradescope.com/courses/952721",
-  notes: "https://www.notion.so/avellinom/CS-3700-Lecture-Notes-183b6f910a2c80bb9ca4c7b8424aae24"
-}
-
-const math4310 = {
-  site: "https://canvas.cornell.edu/courses/71625",
-  submissions: "https://www.gradescope.com/courses/961402"
-}
-
-const info1260 = {
-  site: "https://courses.cs.cornell.edu/cs1340/2025sp/",
-  forum: "https://edstem.org/us/courses/74307/discussion",
-  submissions: "https://canvas.cornell.edu/courses/74184/grades",
-  notes: "https://docs.google.com/document/d/1qUW2cfjIoQ3ah9Vo9i1dKI2D5-RjOnScMipSsisyTgM/edit?tab=t.0#heading=h.bntrnr6xo27j"
-}
-
-const ski = {
-  site: "https://www.greekpeak.net/ski-ride/current-conditions/",
-  submissions: "https://canvas.cornell.edu/courses/71154",
-}
-
-const cs3410 = {
-  site: "https://www.cs.cornell.edu/courses/cs3410/2025sp/",
-  forum: "https://edstem.org/us/courses/70305/discussion",
-  submissions: "https://www.myworkday.com/cornell/d/home.htmld?maskContext=43723%241",
-  grade: "https://www.gradescope.com/courses/930115"
-}
-
-const classCommands = {
-  cs4410: {
-    name: "CS 4410 Site",
-    url: cs4410.site,
-    category: "Class"
-  },
-  cs4410e: {
-    name: "CS 4410 Forum",
-    url: cs4410.forum,
-    category: "Class"
-  },
-  cs4410s: {
-    name: "CS 4410 Submissions",
-    url: cs4410.submissions,
-    category: "Class"
-  },
-  cs4410n: {
-    name: "CS 4410 Notes",
-    url: cs4410.notes,
-    category: "Classs"
-  },
-
-  cs4411: {
-    name: "CS 4411 Site",
-    url: cs4411.site,
-    category: "Class"
-  },
-  cs4411e: {
-    name: "CS 4411 Forum",
-    url: cs4411.forum,
-    category: "Class"
-  },
-  cs4411s: {
-    name: "CS 4411 Submissions",
-    url: cs4411.submissions,
-    category: "Class"
-  },
-  cs4411n: {
-    name: "CS 4411 Notes",
-    url: cs4411.notes,
-    category: "Class"
-  },
-
-  cs3780: {
-    name: "CS 3780 Site",
-    url: cs3780.site,
-    category: "Class"
-  },
-  cs3780e: {
-    name: "CS 3780 Forum",
-    url: cs3780.forum,
-    category: "Class"
-  },
-  cs3780s: {
-    name: "CS 3780 Submissions",
-    url: cs3780.submissions,
-    category: "Class"
-  },
-
-  cs3700: {
-    name: "CS 3700 Site",
-    url: cs3700.site,
-    category: "Class"
-  },
-  cs3700e: {
-    name: "CS 3700 Forum",
-    url: cs3700.forum,
-    category: "Class"
-  },
-  cs3700s: {
-    name: "CS 3700 Submissions",
-    url: cs3700.submissions,
-    category: "Class"
-  },
-  cs3700n: {
-    name: "CS 3700 Notes",
-    url: cs3700.notes,
-    category: "Class"
-  },
-
-  math4310: {
-    name: "MATH 4310 Site",
-    url: math4310.site,
-    category: "Class"
-  },
-  math4310s: {
-    name: "MATH 4310 Submissions",
-    url: math4310.submissions,
-    category: "Class"
-  },
-
-  info1260: {
-    name: "INFO 1260 Site",
-    url: info1260.site,
-    category: "Class"
-  },
-  info1260e: {
-    name: "INFO 1260 Forum",
-    url: info1260.forum,
-    category: "Class"
-  },
-  info1260s: {
-    name: "INFO 1260 Submissions",
-    url: info1260.submissions,
-    category: "Class"
-  },
-  info1260n: {
-    name: "INFO 1260 Notes",
-    url: info1260.notes,
-    category: "Class"
-  },
-
-  ski: {
-    name: "Ski Conditions",
-    url: ski.site,
-    category: "Class"
-  },
-  skis: {
-    name: "Ski Submissions",
-    url: ski.submissions,
-    category: "Class"
-  },
-
-  cs3410: {
-    name: "CS 3410 Site",
-    url: cs3410.site,
-    category: "Class"
-  },
-  cs3410e: {
-    name: "CS 3410 Forum",
-    url: cs3410.forum,
-    category: "Class"
-  },
-  cs3410s: {
-    name: "CS 3410 Submissions",
-    url: cs3410.submissions,
-    category: "Class"
-  },
-  cs3410g: {
-    name: "CS 3410 Grade",
-    url: cs3410.grade,
-    category: "Class"
-  },
-}
 
 export const COMMANDS: { [CommandNames]: CommandType } = {
   ...personalCommands,
   ...miscCommands,
-  ...classCommands,
 };
