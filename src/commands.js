@@ -41,6 +41,12 @@ const miscCommands = {
     searchurl: "https://www.google.com/search?q=",
     category: "Misc",
   },
+  a: {
+    name: "Archive",
+    url: "https://archive.today/",
+    searchurl: "https://archive.today/",
+    category: "Misc",
+  },
   gm: {
     name: "Gmail",
     url: "https://mail.google.com/mail/u/1/#inbox",
